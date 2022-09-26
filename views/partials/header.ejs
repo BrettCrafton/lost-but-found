@@ -25,12 +25,27 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body>
-    <header class="container">
-      <div class="text-center">
-        <h1 class=""><a href="/profile">Lost But Found</a></h1>
-        <span>Post Your Lost Animal Here</span>
-      </div>
-    </header>
+  <body class="d-flex h-100s">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffff">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="imgs/logo-no-background.png" alt="" width="100">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <a class="btn btn-outline-primary btn-nav" href="/login" role="button">Login</a>
+              <a class="btn-sign-in btn btn-nav" href="/signup" role="button">Sign up</a>
+              <!-- <button href="/login" class="btn btn-outline-dark" type="submit">Login</button> -->
+              <!-- <button href="/signup" class="btn btn-dark" type="submit">Sign up</button> -->
+          </div>
+        </div>
+      </nav>
+      <!-- <div class="text-center">
+        <h1 class=""><a href="/profile">Binary Upload Boom</a></h1>
+        <span>The #100Devs Social Network</span>
+      </div> -->
   </body>
 </html>

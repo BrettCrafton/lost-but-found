@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   build-and-deploy:
-    runs-on: windows 10
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:

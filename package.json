@@ -1,7 +1,8 @@
 {
   "name": "lost-but-found",
   "version": "1.0.0",
-  "description": "100Devs Social Network",
+  "description": "lost animal reunite feed",
+  "homepage": "https://BrettCrafton.github.io/lost-but-found/",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",

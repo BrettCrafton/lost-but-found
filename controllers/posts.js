@@ -35,7 +35,18 @@ module.exports = {
       const result = await cloudinary.uploader.upload(req.file.path);
 
       await Post.create({
-        title: req.body.title,
+        name: req.body.name,
+        species: req.body.speices,
+        breed: req.body.breed,
+        secondBreed: req.body.secondBreed,
+        primaryColor: req.body.primaryColor,
+        secondaryColor: req.body.secondaryColor,
+        gender: req.body.gender,
+        sterilized: req.body.sterilized,
+        microchip: req.body.microchip,
+        microchipNumber: req.body.microchipNumber,
+        wearingCollar: req.body.wearingCollar,
+        collarColor: req.body.collarColor,
         image: result.secure_url,
         cloudinaryId: result.public_id,
         caption: req.body.caption,

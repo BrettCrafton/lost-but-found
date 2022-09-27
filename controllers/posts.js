@@ -36,7 +36,7 @@ module.exports = {
 
       await Post.create({
         name: req.body.name,
-        species: req.body.speices,
+        species: req.body.species,
         breed: req.body.breed,
         secondBreed: req.body.secondBreed,
         primaryColor: req.body.primaryColor,

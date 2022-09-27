@@ -58,3 +58,7 @@ body {
     height: 20vw;
     object-fit: cover;
 } */
+
+.hidden{
+    display: none;
+}

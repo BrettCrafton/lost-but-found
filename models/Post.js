@@ -1,9 +1,48 @@
 const mongoose = require("mongoose");
 
 const PostSchema = new mongoose.Schema({
-  title: {
+  name: {
     type: String,
     required: true,
+  },
+  species: {
+    type: String,
+    required: true,
+  },
+  breed: {
+    type: String,
+    required: true,
+  },
+  secondaryBreed: {
+    type: String,
+  },
+  primaryColor: {
+    type: String,
+    required: true,
+  },
+  secondaryColor: {
+    type: String,
+  },
+  gender: {
+    type: String,
+    required: true,
+  },  
+  sterilized: {
+    type: String,
+    required: true,
+  },
+  microchip: {
+    type: String,
+    required: true,
+  },
+  microchipNumber: {
+    type: String,
+  },
+  wearingCollar: {
+    type: String,
+  },
+  collarColor: {
+    type: String,
   },
   image: {
     type: String,
@@ -17,10 +56,10 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  likes: {
-    type: Number,
-    required: true,
-  },
+  // likes: {
+  //   type: Number,
+  //   required: true,
+  // },
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",

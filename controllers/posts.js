@@ -20,6 +20,14 @@ module.exports = {
       console.log(err);
     }
   },
+  getSuccessStories: async (req, res) => {
+    try {
+      const posts = await Post.find().sort({ createdAt: "desc" }).lean();
+      res.render("success-stories.ejs", {posts: posts, user: req.user});
+    } catch (err) {
+      console.log(err);
+    }
+  },
   getPost: async (req, res) => {
     try {
       const post = await Post.findById(req.params.id);

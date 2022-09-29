@@ -7,8 +7,8 @@
             <img src="<%= posts[i].image%>" class="card-img-top" alt="animal">
             <div class="card-body">
               <h5 class="card-title"><%= posts[i].name%></h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="/post/<%= posts[i]._id%>" class="btn btn-primary">Help <%= posts[i].name%></a>
+              <p class="card-text"><%= posts[i].caption%></p>
+              <a href="/post/<%= posts[i]._id%>" class="btn btn-primary"><%= posts[i].name%>'s Story</a>
             </div>
           </div>
           <!-- <li class="col-6 justify-content-between mt-5">

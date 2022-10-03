@@ -4,7 +4,7 @@ A lost animal database with success stories.
 
 Live Project at: <a href="https://bc-lost-but-found.herokuapp.com/success-stories" target="_blank" rel="noreferrer"> https://bc-lost-but-found.herokuapp.com/success-stories </a>
 
-<a href="https://bc-lost-but-found.herokuapp.com/success-stories" target="_blank" rel="noreferrer"> <img src="#" alt="project example"/> </a>
+<a href="https://bc-lost-but-found.herokuapp.com/success-stories" target="_blank" rel="noreferrer"> <img src="https://github.com/BrettCrafton/BrettCrafton/blob/main/assets/lost-but-found-small.gif?raw=true" alt="project example"/> </a>
 
 ## How It's Made:
 

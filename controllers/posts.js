@@ -55,6 +55,7 @@ module.exports = {
         microchipNumber: req.body.microchipNumber,
         wearingCollar: req.body.wearingCollar,
         collarColor: req.body.collarColor,
+        status: "active",
         image: result.secure_url,
         cloudinaryId: result.public_id,
         caption: req.body.caption,

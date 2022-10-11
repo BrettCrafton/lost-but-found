@@ -1,4 +1,4 @@
-# Lost But Found (MVP complete, under construction)
+# Lost But Found
 
 A lost animal database with success stories.
 

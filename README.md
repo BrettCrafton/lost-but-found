@@ -10,7 +10,6 @@ Live Project at: <a href="https://bc-lost-but-found.herokuapp.com/success-storie
 
 **Tech used:** EJS, CSS with Bootstrap, JavaScript, Node.js (w/ Express, Passport, Multer, Morgan, ), MongoDB, Cloudinary
 
-Text
 
 ## Optimizations / Add-Ons:
 
@@ -20,7 +19,7 @@ Toggling for animals within profile page, so that "notorious" escapers can easil
 
 ## Lessons Learned:
 
-Database usage with images via Cloudinary. Strengthed my knowledge of MVC architecture. Regular breaking of node.js building my backend while I worked out bugs. Extensive use of git/github in a more team / best practices method. Uploaded designs and build framework to Wiki. Created a "project" for workflow. Created issues with milestone and specifics. Created a PR submission template for use while merging.
+Database usage with images via Cloudinary. Strengthed my knowledge of MVC architecture. Regular breaking of node.js building my backend while I worked out bugs. Extensive use of git/github in a more production practice method. Uploaded designs and build framework to Wiki. Created a "project" for workflow. Created github issues with milestones and issue specifics. Created a PR submission template for use while merging. Linked and closed issues through pull requests seperated out with branches.
 
 ## APP Use:
 

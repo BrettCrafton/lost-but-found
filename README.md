@@ -14,15 +14,25 @@ Text
 
 ## Optimizations / Add-Ons:
 
-Text
+Additional login options like google/facebook/etc.
+
+Toggling for animals within profile page, so that "notorious" escapers can easily be listed without having to remake a new post everytime. 
 
 ## Lessons Learned:
 
-Text
+Database usage with images via Cloudinary. Strengthed my knowledge of MVC architecture. Regular breaking of node.js building my backend while I worked out bugs. Extensive use of git/github in a more team / best practices method. Uploaded designs and build framework to Wiki. Created a "project" for workflow. Created issues with milestone and specifics. Created a PR submission template for use while merging.
 
 ## APP Use:
 
-Text
+After creating account or signing in, you will be directed to the profile page. Here you will have the ability to insert the lost animals information and upload a picture. After clicking submit it will upload your animal to the lost animal "feed". The animal will also be displayed on your profile page. 
+
+To nagivate around the website you can use the navigation buttons at the top. To view all animals currently lost you can click on the "Lost Pets" button, to view the success stores you click "Reunited", you can to go back to your profile with the "Profile" button, and you can log out with the "Logout" button.
+
+On the Lost Pets feed / Reunited feed, you can click on individual animals to get more details and see their "post". On the Lost Pets feed it allows any user to make comments in regards to the animal, so the community can assist in getting the animal back home. Additionally, the owner of the post will be able to delete the entire post from here if needed and comment owners can delete their comments if needed. 
+
+After reunited, the owner can navigate to the profile page and click the "Reunited" button for an animal's post. This will move the post off the Lost Pets feed and will now display on the Reunited feed.
+
+Users are not limited to just 1 lost animal, they can post multiple animals at a time.
 
 ### Install
 

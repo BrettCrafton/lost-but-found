@@ -5,6 +5,10 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  dateLost: {
+    type: String,
+    required: true,
+  },
   species: {
     type: String,
     required: true,

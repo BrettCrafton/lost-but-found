@@ -25,7 +25,8 @@
       </div>
     </div>
     <div class="col-3 mt-5">
-      <h5><%= post.name %></h5>
+      <h4><%= post.name %></h4>
+      <p><b>Date Lost:</b> <%= post.dateLost.slice(5) + "-" + post.dateLost.slice(0,4) %></p>
       <p><b>Species:</b> <%= post.species %></p>
       <p><b>Breed:</b> <%= post.breed %></p>
       <p><b>Secondary Breed:</b> <%= post.secondBreed %></p>

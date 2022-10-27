@@ -44,6 +44,7 @@ module.exports = {
 
       await Post.create({
         name: req.body.name,
+        dateLost: req.body.dateLost,
         species: req.body.species,
         breed: req.body.breed,
         secondBreed: req.body.secondBreed,

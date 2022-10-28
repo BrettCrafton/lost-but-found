@@ -60,6 +60,12 @@ module.exports = {
         image: result.secure_url,
         cloudinaryId: result.public_id,
         caption: req.body.caption,
+        address: req.body.address,
+        city: req.body.city,
+        county: req.body.county,
+        zipCode: req.body.zipCode,
+        landmark: req.body.landmark,
+        state: req.body.state,
         // likes: 0,
         user: req.user.id,
       });

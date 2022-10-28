@@ -1,8 +1,12 @@
 <%- include('partials/logged-in-header') -%>
 <div class="container">
   <div class="row justify-content-center mt-5">
-    <div class="col-6">
-      <h2><%= post.title %></h2>
+    <div  class="d-flex justify-content-center align-content-center "  >
+      <h2><u><%= post.name %></u></h2>
+    </div>
+    <div class="col-6 mt-2">
+
+      
       <img class="img-fluid" src="<%= post.image%>" />
       <div class="row justify-content-between">
         <!-- <form
@@ -17,15 +21,16 @@
         <form
           action="/post/deletePost/<%= post.id %>?_method=DELETE"
           method="POST"
-          class="col-3"
+          class="col-3 mt-2"
         >
           <button class="btn btn-primary" type="submit">Remove Post</button>
         </form>
         <%}%>
       </div>
     </div>
-    <div class="col-3 mt-5">
-      <h4><%= post.name %></h4>
+    <div class="col-3">
+      <h4><u>Animal Details</u></h4>
+      <p><b>Name:</b> <%= post.name %></p>
       <p><b>Date Lost:</b> <%= post.dateLost.slice(5) + "-" + post.dateLost.slice(0,4) %></p>
       <p><b>Species:</b> <%= post.species %></p>
       <p><b>Breed:</b> <%= post.breed %></p>
@@ -40,6 +45,28 @@
       <p><b>Collar Color:</b> <%= post.collarColor %></p>
       <p><b>Notes:</b> <%= post.caption %></p>
     </div>
+
+
+      <div class="col-6 mt-2">
+          <iframe
+            width="450"
+            height="250"
+            frameborder="0" style="border:0"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA4pJg_ydIwPv3wEU_3wGmkwoZrQE_3bHk&q=<%= post.address %>"
+            allowfullscreen>
+         </iframe>
+      </div>
+      <div class="col-3">
+        <h4><u>Location Lost</u></h4>
+          <p><b>Address:</b> <%= post.address %></p>
+          <p><b>City:</b> <%= post.city %></p>
+          <p><b>Zip Code:</b> <%= post.zipCode %></p>
+          <p><b>State:</b> <%= post.state %></p>
+      </div>
+
+
+
     <div class="mt-5">
       <h2>Add a comment</h2>
       <form action="/comment/createComment/<%=post._id%>" method="POST">

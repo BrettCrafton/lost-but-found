@@ -64,6 +64,28 @@ const PostSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  address: {
+    type: String,
+    required: true,
+  },
+  city: {
+    type: String,
+    required: true,
+  },
+  county: {
+    type: String,
+  },
+  zipCode: {
+    type: String,
+    required: true,
+  },
+  landmark: {
+    type: String,
+  },
+  state: {
+    type: String,
+    required: true,
+  },
   // likes: {
   //   type: Number,
   //   required: true,

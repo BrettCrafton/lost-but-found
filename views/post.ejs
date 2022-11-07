@@ -4,7 +4,7 @@
     <div  class="d-flex justify-content-center align-content-center "  >
       <h2><u><%= post.name %></u></h2>
     </div>
-    <div class="col-6 mt-2">
+    <div class="col-lg mt-2">
 
       
       <img class="img-fluid" src="<%= post.image%>" />
@@ -28,7 +28,7 @@
         <%}%>
       </div>
     </div>
-    <div class="col-3">
+    <div class="col-sm">
       <h4><u>Animal Details</u></h4>
       <p><b>Name:</b> <%= post.name %></p>
       <p><b>Date Lost:</b> <%= post.dateLost.slice(5) + "-" + post.dateLost.slice(0,4) %></p>
@@ -47,7 +47,7 @@
     </div>
 
 
-      <div class="col-6 mt-2">
+      <div class="col-sm mt-2">
         <div class="embed-responsive embed-responsive-16by9">
                     <iframe
           class="embed-responsive-item"
@@ -62,7 +62,7 @@
         </div>
 
       </div>
-      <div class="col-3">
+      <div class="col-sm">
         <h4><u>Location Lost</u></h4>
           <p><b>Address:</b> <%= post.address %></p>
           <p><b>City:</b> <%= post.city %></p>

@@ -23,7 +23,7 @@
           method="POST"
           class="col-3 mt-2"
         >
-          <button class="btn btn-primary" type="submit">Remove Post</button>
+          <button class="btn btn-primary text-nowrap" type="submit">Remove Post</button>
         </form>
         <%}%>
       </div>
@@ -48,14 +48,19 @@
 
 
       <div class="col-6 mt-2">
-          <iframe
-            width="450"
-            height="250"
+        <div class="embed-responsive embed-responsive-16by9">
+                    <iframe
+          class="embed-responsive-item"
+          height="100%"
+          width="100%"
+
             frameborder="0" style="border:0"
             referrerpolicy="no-referrer-when-downgrade"
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA4pJg_ydIwPv3wEU_3wGmkwoZrQE_3bHk&q=<%= post.address %>"
             allowfullscreen>
          </iframe>
+        </div>
+
       </div>
       <div class="col-3">
         <h4><u>Location Lost</u></h4>
@@ -74,7 +79,7 @@
             <label for="comment" class="form-label">Comment</label>
             <input type="text" class="form-control" id="comment" name="comment">
         </div>
-        <button type="submit" class="btn btn-primary" value="Upload">Submit</button>
+        <button type="submit" class="btn btn-primary text-nowrap" value="Upload">Submit</button>
       </form>
     </div>
       <ul>

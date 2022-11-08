@@ -8,7 +8,7 @@ Live Project at: <a href="https://bc-lost-but-found.herokuapp.com" target="_blan
 
 ## How It's Made:
 
-**Tech used:** EJS, CSS with Bootstrap, JavaScript, Node.js (w/ Express, Passport, Multer, Morgan, ), MongoDB, Cloudinary
+**Tech used:** EJS, CSS with Bootstrap, JavaScript, Node.js (w/ Express, Passport, Multer, Morgan, ), MongoDB, Cloudinary, Google Map APIs
 
 
 ## Optimizations / Add-Ons:
@@ -23,9 +23,11 @@ Database usage with images via Cloudinary. Strengthed my knowledge of MVC archit
 
 Extensive use of git/github in a more production practice method. Uploaded designs and build framework to Wiki. Created a "project" for workflow. Created github issues with milestones and issue specifics. Created a PR submission template for use while merging. Linked and closed issues through pull requests seperated out with branches.
 
+How to implement Google Map APIs. Clever ways to integrate current location for address fields.
+
 ## APP Use:
 
-After creating account or signing in, you will be directed to the profile page. Here you will have the ability to insert the lost animals information and upload a picture. After clicking submit it will upload your animal to the lost animal "feed". The animal will also be displayed on your profile page. 
+After creating account or signing in, you will be directed to the profile page. Here you will have the ability to insert the lost animals information and upload a picture. For location information, you can use the button to get your current location then select from drop down list. This will auto apply the address information in the fields, or you can add manually. After clicking submit it will upload your animal to the lost animal "feed". The animal will also be displayed on your profile page. 
 
 To nagivate around the website you can use the navigation buttons at the top. To view all animals currently lost you can click on the "Lost Pets" button, to view the success stores you click "Reunited", you can to go back to your profile with the "Profile" button, and you can log out with the "Logout" button.
 
@@ -51,6 +53,8 @@ Users are not limited to just 1 lost animal, they can post multiple animals at a
   - API_SECRET = `your cloudinary api secret`
 
 ---
+
+- you will need to setup and replace Google API keys as needed.
 
 #### Run
 
